@@ -1,1 +1,77 @@
+body{
+    margin: 0;
+    background-color: rgb(173, 222, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
 
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    color: rgb(173, 222, 255);
+    background-color: rgb(0, 57, 95);
+    padding: 30px 0;
+}
+
+.etiqueta{
+    margin-bottom: 5px;
+    color: rgb(244, 244, 122);
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.menu-lista li{
+    display:inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 12px;
+    color: rgb(244, 244, 122);
+    border: 1px solid rgb(244, 244, 122);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+     background-color: rgb(244, 244, 122);
+    color: rgb(0, 57, 95);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(229, 212, 254, 0.4);
+}
+
+.titulo-secao{
+margin-bottom: 32px;
+padding-left: 12px;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(0, 57, 95);
+    color:rgb(244, 244, 122);
+    text-align: center;
+}
+
+.card{
+    padding: 24px;
+    background-color: rgb(200, 233, 255);
+    border: 2.5px solid rgb(173, 222, 255);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
