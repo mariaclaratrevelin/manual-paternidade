@@ -68,10 +68,18 @@ padding-left: 12px;
     text-align: center;
 }
 
+.rodape a{
+    color: rgb(244, 244, 122);
+}
 .card{
     padding: 24px;
     background-color: rgb(200, 233, 255);
     border: 2.5px solid rgb(173, 222, 255);
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+    margin-top: 50px;
+}
+
+.card img{
+    border-radius:10px;
 }
