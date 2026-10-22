@@ -17,14 +17,14 @@ O conteúdo foi elaborado com base no material ["Manual para Pai de 1ª Viagem (
 ### 📂 Estrutura do projeto
 ```text
 manual-paternidade/
-├── pages/
-│   ├── banho.html
-│   ├── choro.html
-│   └── colo.html
-├── style/
-│   └── style.css
-├── index.html
-└── README.md
+├─ pages/
+│   ├─ banho.html
+│   ├─ choro.html
+│   └─ colo.html
+├─ style/
+│   └─ style.css
+├─ index.html
+└─ README.md
 ```
 🤔 Como executar o projeto
 - Faça o download ou clone este repositório.
